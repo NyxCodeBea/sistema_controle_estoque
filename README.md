@@ -33,3 +33,53 @@ A principal evolução neste projeto (em comparação a listas simples) foi a im
 ├── estoque.json       # Arquivo onde os dados são salvos (gerado automaticamente)
 ├── main.py            # Código fonte principal do sistema
 ├── README.md          # Documentação
+
+```
+
+## 🔧 Como Executar
+
+### Pré-requisitos
+
+Você precisa ter o **Python 3.x** instalado.
+
+### Passo a passo
+
+1. Clone o repositório:
+
+```bash
+git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
+
+```
+
+2. Execute o arquivo principal:
+
+```bash
+python main.py
+
+```
+
+3. O arquivo `estoque.json` será criado automaticamente na primeira execução.
+
+## 🧠 Destaques de Lógica
+
+Um dos desafios superados foi a lógica para impedir estoque negativo:
+
+```python
+if estoque[produto] >= quantidade:
+    estoque[produto] -= quantidade
+    print(f"Estoque atualizado...")
+else:
+    print(f"Quantidade insuficiente! O estoque atual é {estoque[produto]}.")
+
+```
+
+---
+
+<p align="center">
+Desenvolvido para fins de estudo de Lógica de Programação e Estrutura de Dados.
+</p>
+
+```
+
+-----
+

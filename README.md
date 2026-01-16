@@ -75,11 +75,4 @@ else:
 
 ---
 
-<p align="center">
-Desenvolvido para fins de estudo de Lógica de Programação e Estrutura de Dados.
-</p>
-
-```
-
------
 
